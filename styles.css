@@ -1,0 +1,42 @@
+div {
+  border: red dotted 1px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.maze {
+  display: grid;
+  grid-template-columns: repeat(4, max-content);
+  gap: 1px;
+}
+
+.cell {
+  height: 25px;
+  width: 25px;
+  background-color: blanchedalmond;
+}
+
+.border-north {
+  border-top: 2px solid black;
+}
+.border-east {
+  border-right: 2px solid black;
+}
+.border-west {
+  border-left: 2px solid black;
+}
+.border-south {
+  border-bottom: 2px solid black;
+}
