@@ -40,3 +40,12 @@ main {
 .border-south {
   border-bottom: 2px solid black;
 }
+.start {
+  background-color: yellowgreen;
+}
+.goal {
+  background-color: greenyellow;
+}
+.visited {
+  background-color: red;
+}
